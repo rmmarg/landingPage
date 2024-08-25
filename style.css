@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    
+}
+
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+
+}
+
+#titulo-principal{
+    margin-top: 50px;
+    margin-left: 185px;
+    
+    
+}
+
+#paragrafoMenu{
+    margin-top: 20px;
+    margin-left: 185px;
+    padding-bottom: 100px;
+    
+}
+
+#menusuperior{
+    background-image: url(/ProjetoLadingPage/Logos/imagemFundoSuperior.svg);
+    color: white;
+    
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+.icone{
+
+    margin: 50px 0px 50px 50px;
+    padding: 25px;
+}
+
+.txinfromativo{
+    display: flex;
+    align-items: center;
+}
+
+/*secacaoDepoimentos*/
+
+#secacaoDepoimentos{
+    
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#textoCarrossel{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+#dpcarrossel{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+      
+}
+
+#cards{
+    
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.cards{
+    margin-left: 25px;
+}
+
+#setaEsquerda{
+    
+    display: none;
+
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+
+    text-align: center;
+    
+}
+
+#tituloformulario{
+
+    font-size: 25px;
+    color: #383838;
+    margin: 25px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+button{
+    background-color: #247BA0;
+    width: 355px;
+    height: 40px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3da8d6;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #050630;
+    transition-duration: 0.5s;
+}
